@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <style>
+      form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+      }
+      form input {
+        padding: 12px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+        outline: none;
+      }
+      form .submit {
+        padding: 12px 24px;
+        background-color: #20e3b2;
+        border-radius: 4px;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" method="post">
+      <input type="text" placeholder="Name" class="author" />
+      <input type="text" placeholder="Ask something to me" class="message" />
+      <input type="submit" value="Send" class="submit" />
+    </form>
+    <script src="./main.js"></script>
+  </body>
 </html>
